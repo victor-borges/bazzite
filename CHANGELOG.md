@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.1.0](https://github.com/ublue-os/bazzite/compare/v3.0.1...v3.1.0) (2024-05-08)
+
+
+### Features
+
+* **deck:** Add DeckHD patch for gamescope ([f86661e](https://github.com/ublue-os/bazzite/commit/f86661ed12d83e23a3ea46039493966b2446ad09))
+* **deck:** Update Handheld-Controller-Glyphs theme with topgrade ([27a7db1](https://github.com/ublue-os/bazzite/commit/27a7db15e44db7bb3630bb382e7d2676e7058463))
+* **desktop:** EmuDeck added to Desktop images ([#1071](https://github.com/ublue-os/bazzite/issues/1071)) ([933e851](https://github.com/ublue-os/bazzite/commit/933e8518147ef0ab5eb457b9335c04c47a82dbe3))
+* **framework:** Add color calibration files for the Framework 16 ([c60e4c1](https://github.com/ublue-os/bazzite/commit/c60e4c1d9125dea31486a95c2f474f5c64f14e8b))
+* **framework:** Add font size patch for Framework 13 ([adc3b49](https://github.com/ublue-os/bazzite/commit/adc3b49d58329e29b5b76c1d06fef7293c26f7b8))
+* **framework:** Apply audio fixes for AMD Framework 13 automatically ([043ef7e](https://github.com/ublue-os/bazzite/commit/043ef7ee7c3bae223ab3fdad038d241c5cba499e))
+* **framework:** Move OSD over volume buttons ([e813c33](https://github.com/ublue-os/bazzite/commit/e813c33f21de8622cca5425b7a1c5a6e3d178acd))
+* **framework:** Use older mediatek firmware for Framework 16 ([dbe2aec](https://github.com/ublue-os/bazzite/commit/dbe2aec915f1a15bf437ebe275fee61da1a575a2))
+* **gnome:** Add triple buffering patched mutter ([b9a9c33](https://github.com/ublue-os/bazzite/commit/b9a9c33ac5c4ee1c6922ea130ab337528d04613b))
+* **just:** add recipe to restart proton ([#1091](https://github.com/ublue-os/bazzite/issues/1091)) ([4219f5f](https://github.com/ublue-os/bazzite/commit/4219f5f6ad4173fe2d2f5bc5629788a42364b6ae))
+* **nvidia:** Default to x11 again ([#1078](https://github.com/ublue-os/bazzite/issues/1078)) ([03bdd6a](https://github.com/ublue-os/bazzite/commit/03bdd6a9744d749916cdc8249f8af6da71f9c109))
+* Switch to zap for managing AppImages, auto-update zap installed AppImages with Topgrade ([7d291a1](https://github.com/ublue-os/bazzite/commit/7d291a10ad94e460ba156ea1093369d908b5696d))
+
+
+### Bug Fixes
+
+* **ally:** Correct power save issue automatically ([420f934](https://github.com/ublue-os/bazzite/commit/420f934b729109fcfccd45a5bc7b3ea70c999551))
+* Disable joycond by default until BT issues can be triaged. ([3ef01c8](https://github.com/ublue-os/bazzite/commit/3ef01c846363a66d0f96e3d13ed1f6c3d5051a98))
+* **gnome:** Change thread type to fix random GNOME login screen crashes ([fe2218e](https://github.com/ublue-os/bazzite/commit/fe2218ec38c83c3a413829424817059b5b8803a4))
+* **kde:** Remove `QT_IM_MODULE` and `GTK_IM_MODULE` for IBus in wayland ([#1069](https://github.com/ublue-os/bazzite/issues/1069)) ([26c8b6d](https://github.com/ublue-os/bazzite/commit/26c8b6d9aaa183bcee4641f0242183a0931f9217))
+* minisforum v3 enable iomem and add waydroid-launcher resolution ([#1077](https://github.com/ublue-os/bazzite/issues/1077)) ([8ff9397](https://github.com/ublue-os/bazzite/commit/8ff93975cc4cde9b13b390b07e9e8b6495798667))
+* **ujust:** Add --or-update flag for Flatpak command ([#1095](https://github.com/ublue-os/bazzite/issues/1095)) ([4bd1872](https://github.com/ublue-os/bazzite/commit/4bd187256a97535a991b0d416ae52c2bd695501d))
+* update link to universal blue contributing guide in PR template ([#1083](https://github.com/ublue-os/bazzite/issues/1083)) ([8855f96](https://github.com/ublue-os/bazzite/commit/8855f96a9d9d2d512ed7d981dd72ae8f2380a5b8))
+* Use override replace when upgrading lact with topgrade ([27a7db1](https://github.com/ublue-os/bazzite/commit/27a7db15e44db7bb3630bb382e7d2676e7058463))
+* **waydroid:** Correct issue with controller reset script (Thanks [@kubepy](https://github.com/kubepy)) ([21a9d6d](https://github.com/ublue-os/bazzite/commit/21a9d6ddff1adb21303d0c884d7fa01ea9dfb279))
+
 ## [3.0.1](https://github.com/ublue-os/bazzite/compare/v3.0.0...v3.0.1) (2024-05-02)
 
 
